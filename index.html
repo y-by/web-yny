@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#303030">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS normalizer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <title>WebYNY</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="home">
+    <div class="logo">
+      <a href="index.html"><h2 class="text-logo">webYNY</h2></a>
+    </div>
+    
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      
+      <label for="toggle" class="theme-toggler settings-option" id="theme-toggler">
+        <span class="theme-toggler__label">Light / Dark</span>
+        <input type="checkbox" id="toggle" class="theme-toggler__checkbox" checked/>
+        <span aria-hidden="true" class="theme-toggler__switch"></span>
+      </label>
+
+    <nav class="nav" role="navigation">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link" >Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link" >My Services</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link" >My work</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link" >About me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Introduction -->
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      I am <strong>YaNaY</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img class="intro__img" src="/img/web-yanay-01.png" alt="a picture of Yanay Bar-yossef smiling">
+    <div class="section__text">
+      <p>Design-driven Front-end developer, ex-soundman & backliner, human
+        with minimalistic-innovative approach that makes outstanding results.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">Experience</h2>
+    <div class="services">
+      
+      <div class="service">
+          <h3>Project management</h3>
+          <ul>
+            <li>Notion</li>
+            <li>Google apps </li>
+          </ul>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        </div> <!-- / service -->
+
+        <div class="service">
+            <h3>Development</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Wordpress</li>
+            </ul>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        </div> <!-- / service -->
+
+      <div class="service">
+          <h3>Design & Motion</h3>
+          <ul>
+            <li>FIGMA</li>
+            <li>DaVinci Resolve</li>
+            <li>Affinity Designer</li>
+            <li>Elementor</li>
+          </ul>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+      </div> <!-- / service -->
+      
+  </div> <!-- / services -->
+
+    <a href="#work" class="btn" >Check out my work</a>
+  </section>
+
+
+  <!-- My Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+    <div class="portfolio">
+
+      <!-- portfolio item 01 -->
+      <a href="https://iangels.com" target="_blank" class="portfolio__item">
+        <img src="img/portfolio-01.png" alt="" class="portfolio__img">
+      </a>
+      <!-- portfolio item 02 -->
+      <a href="https://brizaholdings.co.il" target="_blank" class="portfolio__item">
+        <img src="img/portfolio-02.png" alt="" class="portfolio__img">
+      </a>
+      <!-- portfolio item 03 -->
+      <a href="https://www.dhmstudio.com" target="_blank" class="portfolio__item">
+        <img src="img/portfolio-03.png" alt="" class="portfolio__img">
+      </a>
+      <!-- portfolio item 04 -->
+      <a href="https://sazoulay.com/" target="_blank" class="portfolio__item">
+        <img src="img/portfolio-04.png" alt="" class="portfolio__img">
+      </a>
+    </div>
+  </section>
+
+
+  <!-- About me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Front-end web developer</p>
+    <div class="about-me__body">
+      <p>I’m Yanay, Design-driven front-end developer, who's up for any challenge.
+        and no, I'm not your average developer. 
+        and yeah, I do have a unique digital and physical understanding.  </p>
+      <p>My experience includes years of development, programming and design 
+        in many environments, with a great passion for problem-solving and optimization.
+      </p>
+      <small> 17+ years as a Backliner, Soundman and Stage manager with Israel's leading artists, such as Rita, Shalom Hanoch, Festigal, ets</small>
+    </div>
+
+    <img class="about-me__img" src="img/web-yanay-02.jpg" alt="Jane leaning against a bus">
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:web.yny@gmail.com" class="footer__link">web.yny@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a href="https://codepen.io/janayby" class="social-list__link" target="_blank">
+          <i class="fab fa-codepen"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://github.com/y-by" class="social-list__link" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+
+  <script src="js/index.js"></script>
+</body>
+</html>
