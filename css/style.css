@@ -511,13 +511,14 @@ header {
 
 .intro {
   position: relative;
-  top: -5vh;
+  /* top: -5vh; */
   text-align: center;
 }
 
 .intro__img {
   box-shadow: var(--bs);
   margin: 0 auto;
+  width: 100%;
   max-width: 250px;
 }
 
@@ -590,7 +591,7 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
-  max-width: 650px;
+  max-width: 600px;
 }
 
 .section__title--about {
@@ -598,6 +599,8 @@ header {
 }
 
 .about-me__img {
+  width: 250px;
+  max-width: 80%;
   margin: 0 auto;
   order: 4;
   box-shadow: var(--bs);
@@ -605,6 +608,8 @@ header {
 
 .about-me__body {
   order: 3;
+  max-width: 300px;
+  margin: 0 auto;
 }
 @media (min-width: 800px) {
   .about-me {
@@ -638,7 +643,11 @@ header {
   }
   .about-me__body {
     grid-area: body;
+    max-width: 900px;
     /* margin-right: 8rem; */
+  }
+  .about-me__body p {
+    margin-top: 0;
   }
   .about-me__img {
     grid-area: img;
@@ -668,8 +677,6 @@ header {
 }
 
 .portfolio__item {
-  /* background: var(--clr-accent); */
-  /* box-shadow: 0 0 0px 1px var(--clr-body)  inset; */
   overflow: hidden;
   border-radius: 16px;
 }
@@ -677,7 +684,6 @@ header {
 .portfolio__img {
   filter: grayscale(1);
   min-width: 100%;
-  /* transition: all 350ms ease-in-out; */
   transition: transform 650ms cubic-bezier(.5, 0, .5, 1),
   opacity 250ms linear,
   filter 250ms linear;
@@ -784,6 +790,9 @@ header {
     grid-column: -1 / 1;
 
     width: calc(450px + 1.5em);
+  }
+  .section__text p {
+    margin-bottom: 0;
   }
   .my-services {
     background: var(--clr-body)
