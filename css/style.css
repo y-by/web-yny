@@ -204,9 +204,9 @@ ul {
 [data-theme="dark"] p {
   color: var(--clr-body);
 }
-[data-theme="dark"] .btn {
+/* [data-theme="dark"] .btn {
   color: var(--clr-body);
-}
+} */
 [data-theme="dark"] a:hover {
   text-decoration: currentColor underline 2px;
 }
