@@ -68,16 +68,6 @@ body {
   color: var(--clr-dark);
 }
 
-/* scrollbar */
-/* ::-webkit-scrollbar {
-  background-color: var(--clr-dark);
-  width: 3px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: var(--clr-accent);
-} */
-
-
 section {
   padding: 5em 2em;
 }
@@ -94,7 +84,6 @@ a {
 }
 a:hover {
   text-decoration: currentColor underline 2px;
-  /* text-decoration-style: wavy; */
 }
 
 ul {
