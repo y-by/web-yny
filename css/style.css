@@ -797,7 +797,7 @@ header {
   }
   .my-services {
     background: var(--clr-body)
-    url("../img/services-bg.jpg" ) no-repeat;
+    url("../img/services-bg.webp" ) no-repeat;
     background-size: cover;
   }
   .portfolio {
