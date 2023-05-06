@@ -266,7 +266,7 @@ ul {
 }
 [data-theme="dark"] .my-services {
   background: linear-gradient(rgba(0, 0, 0, 0.4), 
-  rgba(0, 0, 0, 0.4)), url("../img/services-bg.jpg" );
+  rgba(0, 0, 0, 0.4)), url("../img/services-bg.webp" );
   background-size: cover;
 }
 [data-theme="dark"] .about-me {
@@ -528,7 +528,7 @@ header {
 
 .my-services {
   text-align: center;
-  background: var(--clr-body) url("../img/services-bg.jpg" ) no-repeat;
+  background: var(--clr-body) url("../img/services-bg.webp" ) no-repeat;
   background-size: cover;
   color: var(--clr-light);
 
